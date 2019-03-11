@@ -1,3 +1,6 @@
+
+%define debug_package %{nil}
+
 Name:		qpress
 Version:	11
 Release:	1%{?dist}
