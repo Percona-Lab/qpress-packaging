@@ -3,7 +3,7 @@
 
 Name:		qpress
 Version:	11
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	A portable file archiver using QuickLZ
 Group:		Applications/File
 License:	GPL
