@@ -11,6 +11,9 @@
 
 %:
 	dh $@
-	
+
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip
+
 override_dh_auto_install:
 	@echo "RULES.$@"
